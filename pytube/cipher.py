@@ -40,6 +40,8 @@ class Cipher:
             r"\w+\[(\"\w+\")\]\(\w,(\d+)\)"
         ]
 
+
+        
         self.throttling_plan = get_throttling_plan(js)
         self.throttling_array = get_throttling_function_array(js)
 
